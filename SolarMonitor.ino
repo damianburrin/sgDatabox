@@ -114,7 +114,7 @@ void loop()
             dcoutput="DC Power: " + String(status.dcPower) + "W";
             acoutput="AC Power: " + String(status.acPower) + "W";
             currTemp="Temperature: " + String(status.temperature)+"c";
-            totalPower="Total Power Gen: " + String(status.totalGeneratedPower) + "KWh";
+            totalPower="Total: " + String(status.totalGeneratedPower) + "KWh";
             
              display.clear();
              display.display();
